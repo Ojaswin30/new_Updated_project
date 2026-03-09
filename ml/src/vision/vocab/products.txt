@@ -1,0 +1,361 @@
+# =====================
+# Apparel – Topwear
+# =====================
+tshirt
+t-shirt
+polo tshirt
+shirt
+formal shirt
+casual shirt
+linen shirt
+denim shirt
+oversized tshirt
+crop top
+tank top
+camisole
+blouse
+tunic
+kurta
+kurti
+ethnic wear
+
+# =====================
+# Apparel – Bottomwear
+# =====================
+jeans
+denim jeans
+skinny jeans
+straight jeans
+trousers
+pants
+chinos
+joggers
+track pants
+shorts
+cargo pants
+leggings
+palazzos
+skirts
+mini skirt
+maxi skirt
+
+# =====================
+# Apparel – Outerwear
+# =====================
+jacket
+denim jacket
+leather jacket
+hoodie
+zip hoodie
+sweatshirt
+sweater
+cardigan
+blazer
+coat
+overcoat
+windcheater
+
+# =====================
+# Apparel – Dresses
+# =====================
+dress
+casual dress
+party dress
+gown
+evening gown
+maxi dress
+mini dress
+jumpsuit
+romper
+
+# =====================
+# Apparel – Inner & Active
+# =====================
+innerwear
+underwear
+bra
+sports bra
+nightwear
+sleepwear
+loungewear
+sportswear
+activewear
+gym wear
+yoga wear
+swimwear
+
+# =====================
+# Footwear
+# =====================
+sneakers
+sports shoes
+running shoes
+walking shoes
+formal shoes
+casual shoes
+loafers
+oxfords
+derby shoes
+sandals
+slippers
+flip flops
+heels
+block heels
+stilettos
+ballerinas
+flats
+boots
+ankle boots
+long boots
+
+# =====================
+# Bags & Accessories
+# =====================
+backpack
+rucksack
+school bag
+college bag
+laptop bag
+travel bag
+duffel bag
+trolley bag
+handbag
+clutch
+sling bag
+wallet
+belt
+cap
+hat
+scarf
+sunglasses
+watch
+smartwatch
+jewellery
+necklace
+earrings
+bracelet
+ring
+
+# =====================
+# Audio & Video
+# =====================
+headphones
+wireless headphones
+earphones
+earbuds
+bluetooth earbuds
+speaker
+bluetooth speaker
+home theater
+soundbar
+television
+smart tv
+android tv
+monitor
+projector
+camera
+dslr camera
+mirrorless camera
+security camera
+webcam
+
+# =====================
+# Gaming
+# =====================
+gaming console
+gaming accessories
+controller
+joystick
+gaming mouse
+gaming keyboard
+gaming headset
+
+# =====================
+# Mobile & Computing
+# =====================
+mobile phone
+smartphone
+feature phone
+tablet
+ipad
+laptop
+notebook laptop
+gaming laptop
+keyboard
+mouse
+wireless mouse
+printer
+scanner
+router
+wifi router
+power bank
+charger
+usb cable
+hard disk
+ssd
+pendrive
+
+# =====================
+# Home Appliances
+# =====================
+refrigerator
+washing machine
+air conditioner
+air cooler
+microwave
+oven
+dishwasher
+water purifier
+room heater
+fan
+ceiling fan
+mixer grinder
+blender
+coffee maker
+electric kettle
+toaster
+induction cooktop
+chimney
+iron
+vacuum cleaner
+
+# =====================
+# Home & Furniture
+# =====================
+bed sheet
+bedsheet
+pillow
+pillow cover
+blanket
+quilt
+comforter
+curtain
+carpet
+rug
+sofa
+sofa set
+chair
+table
+dining table
+study table
+wardrobe
+almirah
+mattress
+home decor
+wall decor
+showpiece
+vase
+lamp
+lighting
+floor lamp
+table lamp
+
+# =====================
+# Fitness & Sports
+# =====================
+fitness equipment
+treadmill
+exercise bike
+dumbbells
+kettlebell
+yoga mat
+resistance bands
+skipping rope
+fitness accessories
+cricket bat
+cricket ball
+badminton racket
+tennis racket
+football
+basketball
+volleyball
+sports accessories
+cycling helmet
+bicycle
+exercise gloves
+
+# =====================
+# Toys & Games
+# =====================
+toys
+soft toys
+board games
+action figures
+educational toys
+stem toys
+remote control toys
+puzzles
+dolls
+toy cars
+
+# =====================
+# Pets
+# =====================
+pet food
+dog food
+cat food
+dog supplies
+cat supplies
+pet accessories
+pet toys
+pet grooming
+
+# =====================
+# Books & Stationery
+# =====================
+books
+textbooks
+fiction books
+non fiction books
+ebooks
+children books
+notebooks
+diaries
+stationery
+pens
+pencils
+markers
+office supplies
+
+# =====================
+# Beauty & Personal Care
+# =====================
+beauty products
+makeup
+skincare
+haircare
+personal care appliances
+hair dryer
+hair straightener
+trimmer
+shaver
+grooming products
+perfume
+deodorant
+
+# =====================
+# Baby Products
+# =====================
+baby products
+diapers
+baby clothing
+baby shoes
+strollers
+prams
+feeding bottles
+baby food
+baby toys
+
+# =====================
+# Automotive
+# =====================
+car accessories
+bike accessories
+car electronics
+dash camera
+car charger
+bike
+motorcycle
+helmet
+car care products
+engine oil
