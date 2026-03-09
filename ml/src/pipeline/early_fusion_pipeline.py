@@ -3,7 +3,7 @@ import os
 import time
 
 from ml.src.pipeline.constraint_parser import ConstraintParser
-from ml.src.pipeline.query_builder import SQLQueryBuilder
+from ml.src.pipeline.query_builder import SimpleQueryBuilder
 from ml.src.vision.early_fusion_clip_inference import early_fusion_image_infer
 
 

@@ -101,7 +101,7 @@ seaborn==0.13.2
 Send2Trash==2.0.0
 setuptools==80.9.0
 six==1.17.0
--e git+https://github.com/ojaswinaggarwal-oss/smart-shopping-search.git@88ac64144aaa5b55baa3544f0aa5ce59b2472f78#egg=smart_shopping_search
+-e git+https://github.com/ojaswinaggarwal-oss/new_Updated_project.git@88ac64144aaa5b55baa3544f0aa5ce59b2472f78#egg=smart_shopping_search
 soupsieve==2.8.1
 stack-data==0.6.3
 sympy==1.14.0

@@ -7,11 +7,7 @@ import os
 from ml.src.pipeline.late_fusion import LateFusionPipeline, PipelineConfig
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--image", required=True)
-    parser.add_argument("--text", required=True)
-    args = parser.parse_args()
+def run_late_fusion(image_path: str | None, text: str):
 
     process = psutil.Process(os.getpid())
 
@@ -20,7 +16,7 @@ def main():
     mem_start = process.memory_info().rss
 
     pipe = LateFusionPipeline(PipelineConfig())
-    out = pipe.run(args.image, args.text)
+    out = pipe.run(image_path, text)
 
     end_time = time.perf_counter()
     cpu_end = psutil.cpu_percent(interval=None)
@@ -34,7 +30,18 @@ def main():
         "memory_usage_mb_after": round(mem_end / (1024 * 1024), 2),
     }
 
-    print(json.dumps(out, indent=2))
+    return out
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--image", required=True)
+    parser.add_argument("--text", required=True)
+    args = parser.parse_args()
+
+    result = run_late_fusion(args.image, args.text)
+
+    print(json.dumps(result, indent=2))
 
 
 if __name__ == "__main__":
