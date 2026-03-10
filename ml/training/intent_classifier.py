@@ -109,7 +109,7 @@ def classify_intent(text: str, constraints: Dict) -> Tuple[str, Dict[str, float]
 
 # ==================== TESTING ====================
 if __name__ == "__main__":
-    from ml.src.pipeline.constraint_parser import ConstraintParser
+    from src.pipeline.constraint_parser import ConstraintParser
     
     parser = ConstraintParser()
     classifier = IntentClassifier()

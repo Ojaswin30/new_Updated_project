@@ -11,7 +11,7 @@ from collections import defaultdict
 import argparse
 import re
 
-from ml.src.pipeline.constraint_parser import ConstraintParser
+from src.pipeline.constraint_parser import ConstraintParser
 
 
 # ==================== METRICS ====================

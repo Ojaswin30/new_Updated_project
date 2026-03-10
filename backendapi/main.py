@@ -13,8 +13,8 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT_DIR))
 
 # Pipeline imports
-from ml.src.pipeline.run_late_fusion import run_late_fusion
-from ml.src.pipeline.run_early_fusion import run_early_fusion
+from src.pipeline.run_late_fusion import run_late_fusion
+from src.pipeline.run_early_fusion import run_early_fusion
 
 # ------------------------------------------------
 # FastAPI app

@@ -8,7 +8,7 @@ from typing import List, Dict
 from collections import defaultdict
 import argparse
 
-from ml.src.pipeline.constraint_parser import ConstraintParser
+from src.pipeline.constraint_parser import ConstraintParser
 
 
 # ==================== METRICS ====================

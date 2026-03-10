@@ -1,5 +1,5 @@
 import argparse
-from ml.src.pipeline.early_fusion_pipeline import EarlyFusionPipeline
+from src.pipeline.early_fusion_pipeline import EarlyFusionPipeline
 
 
 def run_early_fusion(image_path: str | None, text: str) -> dict:

@@ -1,0 +1,4024 @@
+{
+  "total_queries": 500,
+  "zero_results": 0,
+  "mrr": 0.4615935630417053,
+  "metrics_by_k": {
+    "5": {
+      "precision": 0.556,
+      "recall": 0.556,
+      "ndcg": 0.4721993556614961
+    },
+    "10": {
+      "precision": 0.658,
+      "recall": 0.658,
+      "ndcg": 0.505622494445624
+    },
+    "20": {
+      "precision": 0.718,
+      "recall": 0.718,
+      "ndcg": 0.5200496613895063
+    }
+  },
+  "per_query_log": [
+    {
+      "query_id": 1,
+      "query_text": "red RONNOX",
+      "intent_type": "visual",
+      "relevant_asin": "B07SB2892S",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 2,
+      "query_text": "red RONNOX",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07SB2892S",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 3,
+      "query_text": "gold Stainless",
+      "intent_type": "visual",
+      "relevant_asin": "B01AUYK33Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 4,
+      "query_text": "medium Stainless",
+      "intent_type": "attribute",
+      "relevant_asin": "B01AUYK33Y",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 5,
+      "query_text": "gold Stainless",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01AUYK33Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 6,
+      "query_text": "pink Memory",
+      "intent_type": "visual",
+      "relevant_asin": "B072LW22Q2",
+      "rank": 9,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 7,
+      "query_text": "pink Memory",
+      "intent_type": "hybrid",
+      "relevant_asin": "B072LW22Q2",
+      "rank": 9,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 8,
+      "query_text": "blue Wood",
+      "intent_type": "visual",
+      "relevant_asin": "B074BZTXF2",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 9,
+      "query_text": "blue Wood",
+      "intent_type": "hybrid",
+      "relevant_asin": "B074BZTXF2",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 10,
+      "query_text": "wool Elviros",
+      "intent_type": "attribute",
+      "relevant_asin": "B00ZHT84KC",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 11,
+      "query_text": "wool Elviros",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00ZHT84KC",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 12,
+      "query_text": "white Tipsy",
+      "intent_type": "visual",
+      "relevant_asin": "B08F7DNKB2",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 13,
+      "query_text": "white Tipsy",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08F7DNKB2",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 14,
+      "query_text": "black Halloween",
+      "intent_type": "visual",
+      "relevant_asin": "B07SMN5Z79",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 15,
+      "query_text": "black Halloween",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07SMN5Z79",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 16,
+      "query_text": "green Biucly",
+      "intent_type": "visual",
+      "relevant_asin": "B08JTZ598Q",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 17,
+      "query_text": "large Biucly",
+      "intent_type": "attribute",
+      "relevant_asin": "B08JTZ598Q",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 18,
+      "query_text": "green Biucly",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08JTZ598Q",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 19,
+      "query_text": "FanShou",
+      "intent_type": "attribute",
+      "relevant_asin": "B072JSRDQ9",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 20,
+      "query_text": "Giselle",
+      "intent_type": "attribute",
+      "relevant_asin": "B0141SIMCY",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 21,
+      "query_text": "silver Pierced",
+      "intent_type": "visual",
+      "relevant_asin": "B0B31Z29G3",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 22,
+      "query_text": "silver Pierced",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0B31Z29G3",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 23,
+      "query_text": "silver Sterling",
+      "intent_type": "visual",
+      "relevant_asin": "B073X1ZTRH",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 24,
+      "query_text": "silver Sterling",
+      "intent_type": "hybrid",
+      "relevant_asin": "B073X1ZTRH",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 25,
+      "query_text": "red Milumia",
+      "intent_type": "visual",
+      "relevant_asin": "B01G1PCBG8",
+      "rank": 14,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 26,
+      "query_text": "large Milumia",
+      "intent_type": "attribute",
+      "relevant_asin": "B01G1PCBG8",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 27,
+      "query_text": "red Milumia",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01G1PCBG8",
+      "rank": 14,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 28,
+      "query_text": "Boomtrader",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B42FVLSH",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 29,
+      "query_text": "Bandolino",
+      "intent_type": "attribute",
+      "relevant_asin": "B015WXZSZ6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 30,
+      "query_text": "blue Calvin",
+      "intent_type": "visual",
+      "relevant_asin": "B07L8JCJWG",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 31,
+      "query_text": "blue Calvin",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07L8JCJWG",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 32,
+      "query_text": "blue Gold",
+      "intent_type": "visual",
+      "relevant_asin": "B00D4C1D7U",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 33,
+      "query_text": "blue Gold",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00D4C1D7U",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 34,
+      "query_text": "2Pcs",
+      "intent_type": "attribute",
+      "relevant_asin": "B07DQH92GR",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 35,
+      "query_text": "Hendevl",
+      "intent_type": "attribute",
+      "relevant_asin": "B07QL59SXQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 36,
+      "query_text": "Gravity",
+      "intent_type": "attribute",
+      "relevant_asin": "B074KJFGXT",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 37,
+      "query_text": "black MagBelt",
+      "intent_type": "visual",
+      "relevant_asin": "B0178IKH40",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 38,
+      "query_text": "medium MagBelt",
+      "intent_type": "attribute",
+      "relevant_asin": "B0178IKH40",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 39,
+      "query_text": "black MagBelt",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0178IKH40",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 40,
+      "query_text": "green Allmygold",
+      "intent_type": "visual",
+      "relevant_asin": "B00B3L3HPU",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 41,
+      "query_text": "green Allmygold",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00B3L3HPU",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 42,
+      "query_text": "red KEYCHIN",
+      "intent_type": "visual",
+      "relevant_asin": "B08KZZFR9Z",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 43,
+      "query_text": "red KEYCHIN",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08KZZFR9Z",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 44,
+      "query_text": "navy MSBASIC",
+      "intent_type": "visual",
+      "relevant_asin": "B07CB95B8T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 45,
+      "query_text": "navy MSBASIC",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07CB95B8T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 46,
+      "query_text": "Mens",
+      "intent_type": "attribute",
+      "relevant_asin": "B08B9QPRBG",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 47,
+      "query_text": "red Missmay",
+      "intent_type": "visual",
+      "relevant_asin": "B0196HE9I6",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 48,
+      "query_text": "red Missmay",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0196HE9I6",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 49,
+      "query_text": "black Pure",
+      "intent_type": "visual",
+      "relevant_asin": "B015S9AJOY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 50,
+      "query_text": "black Pure",
+      "intent_type": "hybrid",
+      "relevant_asin": "B015S9AJOY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 51,
+      "query_text": "red 12pcs",
+      "intent_type": "visual",
+      "relevant_asin": "B01BZ0ELIU",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 52,
+      "query_text": "red 12pcs",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01BZ0ELIU",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 53,
+      "query_text": "gold Allegra",
+      "intent_type": "visual",
+      "relevant_asin": "B00BG5WT3Y",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 54,
+      "query_text": "gold Allegra",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00BG5WT3Y",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 55,
+      "query_text": "H2H",
+      "intent_type": "attribute",
+      "relevant_asin": "B083K4F2H7",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 56,
+      "query_text": "silver 925",
+      "intent_type": "visual",
+      "relevant_asin": "B000RAOEZA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 57,
+      "query_text": "silver 925",
+      "intent_type": "hybrid",
+      "relevant_asin": "B000RAOEZA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 58,
+      "query_text": "icyzone",
+      "intent_type": "attribute",
+      "relevant_asin": "B07S8KMCQW",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 59,
+      "query_text": "G.",
+      "intent_type": "attribute",
+      "relevant_asin": "B013KISWT4",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 60,
+      "query_text": "white Ritastephens",
+      "intent_type": "visual",
+      "relevant_asin": "B074G2CSC3",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 61,
+      "query_text": "white Ritastephens",
+      "intent_type": "hybrid",
+      "relevant_asin": "B074G2CSC3",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 62,
+      "query_text": "CRZ",
+      "intent_type": "attribute",
+      "relevant_asin": "B08PFYDC1J",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 63,
+      "query_text": "SAND.SALT.SURF.SUN.",
+      "intent_type": "attribute",
+      "relevant_asin": "B017UXVPVC",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 64,
+      "query_text": "blue Cute",
+      "intent_type": "visual",
+      "relevant_asin": "B01M3T35WU",
+      "rank": 13,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 65,
+      "query_text": "blue Cute",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01M3T35WU",
+      "rank": 13,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 66,
+      "query_text": "Gymnastic",
+      "intent_type": "attribute",
+      "relevant_asin": "B01HE180YU",
+      "rank": 13,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 67,
+      "query_text": "Goodthreads",
+      "intent_type": "attribute",
+      "relevant_asin": "B07YBG8JCW",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 68,
+      "query_text": "Gioberti",
+      "intent_type": "attribute",
+      "relevant_asin": "B08L5JXQNY",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 69,
+      "query_text": "Tee",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CRT7B93",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 70,
+      "query_text": "DAYAN",
+      "intent_type": "attribute",
+      "relevant_asin": "B013FIPB7K",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 71,
+      "query_text": "Tilos",
+      "intent_type": "attribute",
+      "relevant_asin": "B078Z2C45K",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 72,
+      "query_text": "YAZILIND",
+      "intent_type": "attribute",
+      "relevant_asin": "B00E3RD0GC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 73,
+      "query_text": "silver Seni",
+      "intent_type": "visual",
+      "relevant_asin": "B07BLQZC1Z",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 74,
+      "query_text": "silver Seni",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07BLQZC1Z",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 75,
+      "query_text": "black MEROKEETY",
+      "intent_type": "visual",
+      "relevant_asin": "B08P73RDP1",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 76,
+      "query_text": "xxl MEROKEETY",
+      "intent_type": "attribute",
+      "relevant_asin": "B08P73RDP1",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 77,
+      "query_text": "black MEROKEETY",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08P73RDP1",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 78,
+      "query_text": "pink KLL",
+      "intent_type": "visual",
+      "relevant_asin": "B08863T7V5",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 79,
+      "query_text": "pink KLL",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08863T7V5",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 80,
+      "query_text": "Aoxjox",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BVMLJTFS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 81,
+      "query_text": "black BUBBLELIME",
+      "intent_type": "visual",
+      "relevant_asin": "B07NVH8V6R",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 82,
+      "query_text": "black BUBBLELIME",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07NVH8V6R",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 83,
+      "query_text": "white [2",
+      "intent_type": "visual",
+      "relevant_asin": "B003675QVW",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 84,
+      "query_text": "white [2",
+      "intent_type": "hybrid",
+      "relevant_asin": "B003675QVW",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 85,
+      "query_text": "Ritche",
+      "intent_type": "attribute",
+      "relevant_asin": "B01HV3GRUU",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 86,
+      "query_text": "URU",
+      "intent_type": "attribute",
+      "relevant_asin": "B08GWSVKT9",
+      "rank": 20,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 87,
+      "query_text": "red Woman",
+      "intent_type": "visual",
+      "relevant_asin": "B00HR6KV9A",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 88,
+      "query_text": "red Woman",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00HR6KV9A",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 89,
+      "query_text": "white Tulucky",
+      "intent_type": "visual",
+      "relevant_asin": "B0719MV64J",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 90,
+      "query_text": "white Tulucky",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0719MV64J",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 91,
+      "query_text": "wool Sportoli",
+      "intent_type": "attribute",
+      "relevant_asin": "B07DNJNBLB",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 92,
+      "query_text": "wool Sportoli",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07DNJNBLB",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 93,
+      "query_text": "black Men's",
+      "intent_type": "visual",
+      "relevant_asin": "B01I2UI7KO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 94,
+      "query_text": "leather Men's",
+      "intent_type": "attribute",
+      "relevant_asin": "B01I2UI7KO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 95,
+      "query_text": "black leather Men's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01I2UI7KO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 96,
+      "query_text": "Gudetama",
+      "intent_type": "attribute",
+      "relevant_asin": "B07BRDCMWR",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 97,
+      "query_text": "silver Chuvora",
+      "intent_type": "visual",
+      "relevant_asin": "B00V3GDT26",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 98,
+      "query_text": "silver Chuvora",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00V3GDT26",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 99,
+      "query_text": "red Astylish",
+      "intent_type": "visual",
+      "relevant_asin": "B07F131DNV",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 100,
+      "query_text": "large Astylish",
+      "intent_type": "attribute",
+      "relevant_asin": "B07F131DNV",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 101,
+      "query_text": "red Astylish",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07F131DNV",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 102,
+      "query_text": "NELEUS",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B2KL8C8Q",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 103,
+      "query_text": "blue Mens",
+      "intent_type": "visual",
+      "relevant_asin": "B07CVTMGB8",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 104,
+      "query_text": "leather Mens",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CVTMGB8",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 105,
+      "query_text": "blue leather Mens",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07CVTMGB8",
+      "rank": 17,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 106,
+      "query_text": "black 365",
+      "intent_type": "visual",
+      "relevant_asin": "B00MU2EPBG",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 107,
+      "query_text": "black 365",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00MU2EPBG",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 108,
+      "query_text": "white BIADANI",
+      "intent_type": "visual",
+      "relevant_asin": "B01DN1F4BC",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 109,
+      "query_text": "medium BIADANI",
+      "intent_type": "attribute",
+      "relevant_asin": "B01DN1F4BC",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 110,
+      "query_text": "white BIADANI",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01DN1F4BC",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 111,
+      "query_text": "cotton medium Size",
+      "intent_type": "attribute",
+      "relevant_asin": "B08CRX7HVW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 112,
+      "query_text": "cotton Size",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08CRX7HVW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 113,
+      "query_text": "gold PAVOI",
+      "intent_type": "visual",
+      "relevant_asin": "B07BVV746L",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 114,
+      "query_text": "gold PAVOI",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07BVV746L",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 115,
+      "query_text": "Ruifan",
+      "intent_type": "attribute",
+      "relevant_asin": "B0749L2NMK",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 116,
+      "query_text": "Udalyn",
+      "intent_type": "attribute",
+      "relevant_asin": "B07D3KYV2G",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 117,
+      "query_text": "JIAKAI",
+      "intent_type": "attribute",
+      "relevant_asin": "B07SLZ22N8",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 118,
+      "query_text": "Unisex",
+      "intent_type": "attribute",
+      "relevant_asin": "B01D8FSP4Q",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 119,
+      "query_text": "Dapper&Doll",
+      "intent_type": "attribute",
+      "relevant_asin": "B08QTVVWT7",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 120,
+      "query_text": "Colorfulkoala",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B8MHXHBW",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 121,
+      "query_text": "Pazzle",
+      "intent_type": "attribute",
+      "relevant_asin": "B08P83SKK6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 122,
+      "query_text": "Oakley",
+      "intent_type": "attribute",
+      "relevant_asin": "B08VSYD33R",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 123,
+      "query_text": "white MJ",
+      "intent_type": "visual",
+      "relevant_asin": "B07V7VZJ6X",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 124,
+      "query_text": "white MJ",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07V7VZJ6X",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 125,
+      "query_text": "Free",
+      "intent_type": "attribute",
+      "relevant_asin": "B00Q3FU45C",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 126,
+      "query_text": "black OUTRY",
+      "intent_type": "visual",
+      "relevant_asin": "B01NAL5UVF",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 127,
+      "query_text": "canvas OUTRY",
+      "intent_type": "attribute",
+      "relevant_asin": "B01NAL5UVF",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 128,
+      "query_text": "black canvas OUTRY",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01NAL5UVF",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 129,
+      "query_text": "white AMZ",
+      "intent_type": "visual",
+      "relevant_asin": "B01KZEPWT4",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 130,
+      "query_text": "white AMZ",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01KZEPWT4",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 131,
+      "query_text": "silk CELESTIAL",
+      "intent_type": "attribute",
+      "relevant_asin": "B08CVV15BD",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 132,
+      "query_text": "silk CELESTIAL",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08CVV15BD",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 133,
+      "query_text": "white Round",
+      "intent_type": "visual",
+      "relevant_asin": "B0108WBC2Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 134,
+      "query_text": "white Round",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0108WBC2Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 135,
+      "query_text": "Vintage",
+      "intent_type": "attribute",
+      "relevant_asin": "B01IL17OFI",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 136,
+      "query_text": "silver BORUO",
+      "intent_type": "visual",
+      "relevant_asin": "B073Z7Y7LM",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 137,
+      "query_text": "silver BORUO",
+      "intent_type": "hybrid",
+      "relevant_asin": "B073Z7Y7LM",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 138,
+      "query_text": "Doerix",
+      "intent_type": "attribute",
+      "relevant_asin": "B084RR9N7B",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 139,
+      "query_text": "Danshuz",
+      "intent_type": "attribute",
+      "relevant_asin": "B09NGNSJ4V",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 140,
+      "query_text": "grey Gihuo",
+      "intent_type": "visual",
+      "relevant_asin": "B075CF12D8",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 141,
+      "query_text": "wool Gihuo",
+      "intent_type": "attribute",
+      "relevant_asin": "B075CF12D8",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 142,
+      "query_text": "grey wool Gihuo",
+      "intent_type": "hybrid",
+      "relevant_asin": "B075CF12D8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 143,
+      "query_text": "black MISSKY",
+      "intent_type": "visual",
+      "relevant_asin": "B01MQXNFBL",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 144,
+      "query_text": "xl MISSKY",
+      "intent_type": "attribute",
+      "relevant_asin": "B01MQXNFBL",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 145,
+      "query_text": "black MISSKY",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MQXNFBL",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 146,
+      "query_text": "David",
+      "intent_type": "attribute",
+      "relevant_asin": "B00EUQRGY8",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 147,
+      "query_text": "red Cirbic",
+      "intent_type": "visual",
+      "relevant_asin": "B08P3MDP7T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 148,
+      "query_text": "large Cirbic",
+      "intent_type": "attribute",
+      "relevant_asin": "B08P3MDP7T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 149,
+      "query_text": "red Cirbic",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08P3MDP7T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 150,
+      "query_text": "KOGMO",
+      "intent_type": "attribute",
+      "relevant_asin": "B00X1OM01O",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 151,
+      "query_text": "blue Tanming",
+      "intent_type": "visual",
+      "relevant_asin": "B073121WKQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 152,
+      "query_text": "denim Tanming",
+      "intent_type": "attribute",
+      "relevant_asin": "B073121WKQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 153,
+      "query_text": "blue denim Tanming",
+      "intent_type": "hybrid",
+      "relevant_asin": "B073121WKQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 154,
+      "query_text": "black Pembrook",
+      "intent_type": "visual",
+      "relevant_asin": "B071ZSZNK3",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 155,
+      "query_text": "wool Pembrook",
+      "intent_type": "attribute",
+      "relevant_asin": "B071ZSZNK3",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 156,
+      "query_text": "black wool Pembrook",
+      "intent_type": "hybrid",
+      "relevant_asin": "B071ZSZNK3",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 157,
+      "query_text": "Buckaroo",
+      "intent_type": "attribute",
+      "relevant_asin": "B00SX0VRVA",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 158,
+      "query_text": "Aussie",
+      "intent_type": "attribute",
+      "relevant_asin": "B004P3YQEY",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 159,
+      "query_text": "Zolure",
+      "intent_type": "attribute",
+      "relevant_asin": "B0C19ZY18T",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 160,
+      "query_text": "wool EEM",
+      "intent_type": "attribute",
+      "relevant_asin": "B01B4ZBZBW",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 161,
+      "query_text": "wool EEM",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01B4ZBZBW",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 162,
+      "query_text": "black FOLO",
+      "intent_type": "visual",
+      "relevant_asin": "B06XZ24LBK",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 163,
+      "query_text": "black FOLO",
+      "intent_type": "hybrid",
+      "relevant_asin": "B06XZ24LBK",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 164,
+      "query_text": "Spenco",
+      "intent_type": "attribute",
+      "relevant_asin": "B09MFSWWWK",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 165,
+      "query_text": "Vanolu",
+      "intent_type": "attribute",
+      "relevant_asin": "B09JBJ1GWK",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 166,
+      "query_text": "Baby",
+      "intent_type": "attribute",
+      "relevant_asin": "B088JVSWSC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 167,
+      "query_text": "Tenworld",
+      "intent_type": "attribute",
+      "relevant_asin": "B01EN4KVUM",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 168,
+      "query_text": "red Mens",
+      "intent_type": "visual",
+      "relevant_asin": "B01JCQY1P2",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 169,
+      "query_text": "red Mens",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01JCQY1P2",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 170,
+      "query_text": "black Wonder",
+      "intent_type": "visual",
+      "relevant_asin": "B019IZ382O",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 171,
+      "query_text": "black Wonder",
+      "intent_type": "hybrid",
+      "relevant_asin": "B019IZ382O",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 172,
+      "query_text": "Under",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CW3GWHR",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 173,
+      "query_text": "purple Scarleton",
+      "intent_type": "visual",
+      "relevant_asin": "B00R8EQ636",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 174,
+      "query_text": "leather Scarleton",
+      "intent_type": "attribute",
+      "relevant_asin": "B00R8EQ636",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 175,
+      "query_text": "purple leather Scarleton",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00R8EQ636",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 176,
+      "query_text": "Archer",
+      "intent_type": "attribute",
+      "relevant_asin": "B06ZY5DP7H",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 177,
+      "query_text": "black 316L",
+      "intent_type": "visual",
+      "relevant_asin": "B00G1VATXA",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 178,
+      "query_text": "black 316L",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00G1VATXA",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 179,
+      "query_text": "iStrap",
+      "intent_type": "attribute",
+      "relevant_asin": "B00QBU67R8",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 180,
+      "query_text": "Nimsruc",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B3DJBN32",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 181,
+      "query_text": "black HDE",
+      "intent_type": "visual",
+      "relevant_asin": "B07D7J5CY6",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 182,
+      "query_text": "black HDE",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07D7J5CY6",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 183,
+      "query_text": "Pineapple",
+      "intent_type": "attribute",
+      "relevant_asin": "B07TGFSSD3",
+      "rank": 20,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 184,
+      "query_text": "blue Mydeal",
+      "intent_type": "visual",
+      "relevant_asin": "B09XXH2PY8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 185,
+      "query_text": "blue Mydeal",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09XXH2PY8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 186,
+      "query_text": "Adjustable",
+      "intent_type": "attribute",
+      "relevant_asin": "B08XQNGC7Z",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 187,
+      "query_text": "Tik",
+      "intent_type": "attribute",
+      "relevant_asin": "B09D7D6QDD",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 188,
+      "query_text": "cotton Russell",
+      "intent_type": "attribute",
+      "relevant_asin": "B09KHSM7BB",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 189,
+      "query_text": "cotton Russell",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09KHSM7BB",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 190,
+      "query_text": "Vedolay",
+      "intent_type": "attribute",
+      "relevant_asin": "B086JWQHX6",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 191,
+      "query_text": "gold 2",
+      "intent_type": "visual",
+      "relevant_asin": "B009V1GEXG",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 192,
+      "query_text": "gold 2",
+      "intent_type": "hybrid",
+      "relevant_asin": "B009V1GEXG",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 193,
+      "query_text": "cotton Men's",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CXFLZ7D",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 194,
+      "query_text": "cotton Men's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07CXFLZ7D",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 195,
+      "query_text": "Joy",
+      "intent_type": "attribute",
+      "relevant_asin": "B0C4T7TT79",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 196,
+      "query_text": "grey RUNNING",
+      "intent_type": "visual",
+      "relevant_asin": "B01CL2YOH4",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 197,
+      "query_text": "grey RUNNING",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01CL2YOH4",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 198,
+      "query_text": "Speidel",
+      "intent_type": "attribute",
+      "relevant_asin": "B07K4CC56K",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 199,
+      "query_text": "OrthoComfoot",
+      "intent_type": "attribute",
+      "relevant_asin": "B09LLS1LGH",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 200,
+      "query_text": "blue Cute",
+      "intent_type": "visual",
+      "relevant_asin": "B00KREZPPY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 201,
+      "query_text": "blue Cute",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00KREZPPY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 202,
+      "query_text": "white Shinywear",
+      "intent_type": "visual",
+      "relevant_asin": "B01LNGRFM0",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 203,
+      "query_text": "white Shinywear",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01LNGRFM0",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 204,
+      "query_text": "black Women's",
+      "intent_type": "visual",
+      "relevant_asin": "B005Z38IBA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 205,
+      "query_text": "silk Women's",
+      "intent_type": "attribute",
+      "relevant_asin": "B005Z38IBA",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 206,
+      "query_text": "black silk Women's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B005Z38IBA",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 207,
+      "query_text": "white Big",
+      "intent_type": "visual",
+      "relevant_asin": "B00R4996PA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 208,
+      "query_text": "white Big",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00R4996PA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 209,
+      "query_text": "red HIGHCAMP",
+      "intent_type": "visual",
+      "relevant_asin": "B074H64QT7",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 210,
+      "query_text": "red HIGHCAMP",
+      "intent_type": "hybrid",
+      "relevant_asin": "B074H64QT7",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 211,
+      "query_text": "CLASSROOM",
+      "intent_type": "attribute",
+      "relevant_asin": "B004S0KZL2",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 212,
+      "query_text": "Women's",
+      "intent_type": "attribute",
+      "relevant_asin": "B07G4PHLNT",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 213,
+      "query_text": "TQS",
+      "intent_type": "attribute",
+      "relevant_asin": "B00X11AO8I",
+      "rank": 9,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 214,
+      "query_text": "Prinbara",
+      "intent_type": "attribute",
+      "relevant_asin": "B09XBFMRN8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 215,
+      "query_text": "blue Allegra",
+      "intent_type": "visual",
+      "relevant_asin": "B01MTS99D0",
+      "rank": 20,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 216,
+      "query_text": "blue Allegra",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MTS99D0",
+      "rank": 20,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 217,
+      "query_text": "MAGCOMSEN",
+      "intent_type": "attribute",
+      "relevant_asin": "B01N9GSNY6",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 218,
+      "query_text": "blue JGJ",
+      "intent_type": "visual",
+      "relevant_asin": "B07BP597TT",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 219,
+      "query_text": "blue JGJ",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07BP597TT",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 220,
+      "query_text": "leather USB",
+      "intent_type": "attribute",
+      "relevant_asin": "B08D3SLVNZ",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 221,
+      "query_text": "leather USB",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08D3SLVNZ",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 222,
+      "query_text": "TOP",
+      "intent_type": "attribute",
+      "relevant_asin": "B0767RRMH8",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 223,
+      "query_text": "Rod's",
+      "intent_type": "attribute",
+      "relevant_asin": "B07KCPHSQN",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 224,
+      "query_text": "black Peach",
+      "intent_type": "visual",
+      "relevant_asin": "B00HWCUKT0",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 225,
+      "query_text": "black Peach",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00HWCUKT0",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 226,
+      "query_text": "red Red",
+      "intent_type": "visual",
+      "relevant_asin": "B074V5KQNP",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 227,
+      "query_text": "red Red",
+      "intent_type": "hybrid",
+      "relevant_asin": "B074V5KQNP",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 228,
+      "query_text": "black Haunted",
+      "intent_type": "visual",
+      "relevant_asin": "B015ELPYS2",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 229,
+      "query_text": "black Haunted",
+      "intent_type": "hybrid",
+      "relevant_asin": "B015ELPYS2",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 230,
+      "query_text": "silver 8ct",
+      "intent_type": "visual",
+      "relevant_asin": "B00B1T86V4",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 231,
+      "query_text": "silver 8ct",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00B1T86V4",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 232,
+      "query_text": "leather SusenstoneFashion",
+      "intent_type": "attribute",
+      "relevant_asin": "B010CLK97K",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 233,
+      "query_text": "leather SusenstoneFashion",
+      "intent_type": "hybrid",
+      "relevant_asin": "B010CLK97K",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 234,
+      "query_text": "nylon Kalon",
+      "intent_type": "attribute",
+      "relevant_asin": "B01GKAEC6Q",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 235,
+      "query_text": "nylon Kalon",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01GKAEC6Q",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 236,
+      "query_text": "black Xelement",
+      "intent_type": "visual",
+      "relevant_asin": "B008R198PM",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 237,
+      "query_text": "leather Xelement",
+      "intent_type": "attribute",
+      "relevant_asin": "B008R198PM",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 238,
+      "query_text": "black leather Xelement",
+      "intent_type": "hybrid",
+      "relevant_asin": "B008R198PM",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 239,
+      "query_text": "red roswear",
+      "intent_type": "visual",
+      "relevant_asin": "B01FYQNHTK",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 240,
+      "query_text": "large roswear",
+      "intent_type": "attribute",
+      "relevant_asin": "B01FYQNHTK",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 241,
+      "query_text": "red roswear",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01FYQNHTK",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 242,
+      "query_text": "blue Vera",
+      "intent_type": "visual",
+      "relevant_asin": "B00FQ3E534",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 243,
+      "query_text": "blue Vera",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00FQ3E534",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 244,
+      "query_text": "Irish",
+      "intent_type": "attribute",
+      "relevant_asin": "B01N6LILNP",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 245,
+      "query_text": "white Legendary",
+      "intent_type": "visual",
+      "relevant_asin": "B014VEK33E",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 246,
+      "query_text": "white Legendary",
+      "intent_type": "hybrid",
+      "relevant_asin": "B014VEK33E",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 247,
+      "query_text": "white Romwe",
+      "intent_type": "visual",
+      "relevant_asin": "B01F53GYXS",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 248,
+      "query_text": "white Romwe",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01F53GYXS",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 249,
+      "query_text": "green Belle",
+      "intent_type": "visual",
+      "relevant_asin": "B01MT81T09",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 250,
+      "query_text": "green Belle",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MT81T09",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 251,
+      "query_text": "Running",
+      "intent_type": "attribute",
+      "relevant_asin": "B00C178K2A",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 252,
+      "query_text": "Dutte",
+      "intent_type": "attribute",
+      "relevant_asin": "B07HK222T1",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 253,
+      "query_text": "FOREYOND",
+      "intent_type": "attribute",
+      "relevant_asin": "B09VGPVK41",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 254,
+      "query_text": "black Lamshaw",
+      "intent_type": "visual",
+      "relevant_asin": "B077XMW9HK",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 255,
+      "query_text": "leather Lamshaw",
+      "intent_type": "attribute",
+      "relevant_asin": "B077XMW9HK",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 256,
+      "query_text": "black leather Lamshaw",
+      "intent_type": "hybrid",
+      "relevant_asin": "B077XMW9HK",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 257,
+      "query_text": "black KRISVI",
+      "intent_type": "visual",
+      "relevant_asin": "B08TQN9YFN",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 258,
+      "query_text": "nylon KRISVI",
+      "intent_type": "attribute",
+      "relevant_asin": "B08TQN9YFN",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 259,
+      "query_text": "black nylon KRISVI",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08TQN9YFN",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 260,
+      "query_text": "black EleQueen",
+      "intent_type": "visual",
+      "relevant_asin": "B06X3WFBGD",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 261,
+      "query_text": "black EleQueen",
+      "intent_type": "hybrid",
+      "relevant_asin": "B06X3WFBGD",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 262,
+      "query_text": "brown Volkswagen",
+      "intent_type": "visual",
+      "relevant_asin": "B01MG8QGL5",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 263,
+      "query_text": "leather Volkswagen",
+      "intent_type": "attribute",
+      "relevant_asin": "B01MG8QGL5",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 264,
+      "query_text": "brown leather Volkswagen",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MG8QGL5",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 265,
+      "query_text": "CAMEL",
+      "intent_type": "attribute",
+      "relevant_asin": "B07G4WDQNZ",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 266,
+      "query_text": "Rolling",
+      "intent_type": "attribute",
+      "relevant_asin": "B014WYXYJS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 267,
+      "query_text": "Helens",
+      "intent_type": "attribute",
+      "relevant_asin": "B06ZYKXFY9",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 268,
+      "query_text": "Durango",
+      "intent_type": "attribute",
+      "relevant_asin": "B09RR9B4KY",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 269,
+      "query_text": "gold NAOMI",
+      "intent_type": "visual",
+      "relevant_asin": "B07MN6LK58",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 270,
+      "query_text": "gold NAOMI",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07MN6LK58",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 271,
+      "query_text": "Cot-Oath",
+      "intent_type": "attribute",
+      "relevant_asin": "B09957YH5D",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 272,
+      "query_text": "MOUSYA",
+      "intent_type": "attribute",
+      "relevant_asin": "B07KQQY44M",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 273,
+      "query_text": "white Dokotoo",
+      "intent_type": "visual",
+      "relevant_asin": "B01LSL2KWK",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 274,
+      "query_text": "small Dokotoo",
+      "intent_type": "attribute",
+      "relevant_asin": "B01LSL2KWK",
+      "rank": 16,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 275,
+      "query_text": "white Dokotoo",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01LSL2KWK",
+      "rank": 10,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 276,
+      "query_text": "cotton Men's",
+      "intent_type": "attribute",
+      "relevant_asin": "B09C7MY2KX",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 277,
+      "query_text": "cotton Men's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09C7MY2KX",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 278,
+      "query_text": "Susenstone",
+      "intent_type": "attribute",
+      "relevant_asin": "B01EQTIC1O",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 279,
+      "query_text": "leather Hide",
+      "intent_type": "attribute",
+      "relevant_asin": "B09CF1DQ9D",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 280,
+      "query_text": "leather Hide",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09CF1DQ9D",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 281,
+      "query_text": "Kajeer",
+      "intent_type": "attribute",
+      "relevant_asin": "B073SSZ27P",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 282,
+      "query_text": "black Full",
+      "intent_type": "visual",
+      "relevant_asin": "B014P5WVY8",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 283,
+      "query_text": "silk xl Full",
+      "intent_type": "attribute",
+      "relevant_asin": "B014P5WVY8",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 284,
+      "query_text": "black silk Full",
+      "intent_type": "hybrid",
+      "relevant_asin": "B014P5WVY8",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 285,
+      "query_text": "black ICSTH",
+      "intent_type": "visual",
+      "relevant_asin": "B01GZH1K50",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 286,
+      "query_text": "black ICSTH",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01GZH1K50",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 287,
+      "query_text": "leather MAGILINK",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BSTSZM62",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 288,
+      "query_text": "leather MAGILINK",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BSTSZM62",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 289,
+      "query_text": "ONESING",
+      "intent_type": "attribute",
+      "relevant_asin": "B087G4ZM8S",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 290,
+      "query_text": "Case",
+      "intent_type": "attribute",
+      "relevant_asin": "B09X1RQ5DG",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 291,
+      "query_text": "silver Turquoise",
+      "intent_type": "visual",
+      "relevant_asin": "B07B3W41JH",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 292,
+      "query_text": "silver Turquoise",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07B3W41JH",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 293,
+      "query_text": "Yoyorule",
+      "intent_type": "attribute",
+      "relevant_asin": "B01AR8HOR6",
+      "rank": 5,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 294,
+      "query_text": "Orthofeet",
+      "intent_type": "attribute",
+      "relevant_asin": "B09Y3TXYF1",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 295,
+      "query_text": "S-2nd",
+      "intent_type": "attribute",
+      "relevant_asin": "B01ABPB8A4",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 296,
+      "query_text": "black Certified",
+      "intent_type": "visual",
+      "relevant_asin": "B0BZ79GMW3",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 297,
+      "query_text": "black Certified",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BZ79GMW3",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 298,
+      "query_text": "KingSize",
+      "intent_type": "attribute",
+      "relevant_asin": "B07C4NBL9F",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 299,
+      "query_text": "blue Allegra",
+      "intent_type": "visual",
+      "relevant_asin": "B01326HQUU",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 300,
+      "query_text": "blue Allegra",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01326HQUU",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 301,
+      "query_text": "linen Hongsui",
+      "intent_type": "attribute",
+      "relevant_asin": "B08R9DBFFG",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 302,
+      "query_text": "linen Hongsui",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08R9DBFFG",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 303,
+      "query_text": "DOROSE",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B6FYQXWL",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 304,
+      "query_text": "grey Bigyonger",
+      "intent_type": "visual",
+      "relevant_asin": "B01M17P1RQ",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 305,
+      "query_text": "grey Bigyonger",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01M17P1RQ",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 306,
+      "query_text": "SCREENSHOT",
+      "intent_type": "attribute",
+      "relevant_asin": "B09BC2STXP",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 307,
+      "query_text": "gray PattyBoutik",
+      "intent_type": "visual",
+      "relevant_asin": "B0748FL519",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 308,
+      "query_text": "gray PattyBoutik",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0748FL519",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 309,
+      "query_text": "grey DAYSOFT",
+      "intent_type": "visual",
+      "relevant_asin": "B06WWB7FM8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 310,
+      "query_text": "grey DAYSOFT",
+      "intent_type": "hybrid",
+      "relevant_asin": "B06WWB7FM8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 311,
+      "query_text": "denim medium Ci",
+      "intent_type": "attribute",
+      "relevant_asin": "B00T88Y326",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 312,
+      "query_text": "denim Ci",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00T88Y326",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 313,
+      "query_text": "Fuzzy",
+      "intent_type": "attribute",
+      "relevant_asin": "B0931VV38J",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 314,
+      "query_text": "LovelyJewelry",
+      "intent_type": "attribute",
+      "relevant_asin": "B071XXLPVM",
+      "rank": 11,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 315,
+      "query_text": "green 925",
+      "intent_type": "visual",
+      "relevant_asin": "B01CKVRZWW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 316,
+      "query_text": "green 925",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01CKVRZWW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 317,
+      "query_text": "gold Pair",
+      "intent_type": "visual",
+      "relevant_asin": "B0742P52NS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 318,
+      "query_text": "gold Pair",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0742P52NS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 319,
+      "query_text": "black Dearlove",
+      "intent_type": "visual",
+      "relevant_asin": "B07BFTVJV4",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 320,
+      "query_text": "medium Dearlove",
+      "intent_type": "attribute",
+      "relevant_asin": "B07BFTVJV4",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 321,
+      "query_text": "black Dearlove",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07BFTVJV4",
+      "rank": 18,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 322,
+      "query_text": "wool medium Smartwool",
+      "intent_type": "attribute",
+      "relevant_asin": "B01ASBIG2Y",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 323,
+      "query_text": "wool Smartwool",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01ASBIG2Y",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 324,
+      "query_text": "leather large Michael",
+      "intent_type": "attribute",
+      "relevant_asin": "B0188OFUDQ",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 325,
+      "query_text": "leather Michael",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0188OFUDQ",
+      "rank": 16,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 326,
+      "query_text": "black Cosplay",
+      "intent_type": "visual",
+      "relevant_asin": "B00KWVSLTO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 327,
+      "query_text": "black Cosplay",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00KWVSLTO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 328,
+      "query_text": "Library",
+      "intent_type": "attribute",
+      "relevant_asin": "B016RKURPE",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 329,
+      "query_text": "Futuristic",
+      "intent_type": "attribute",
+      "relevant_asin": "B07BYL4BG4",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 330,
+      "query_text": "Eyekepper",
+      "intent_type": "attribute",
+      "relevant_asin": "B07YFYJSZ5",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 331,
+      "query_text": "pink Bigyonger",
+      "intent_type": "visual",
+      "relevant_asin": "B01H4VZCRS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 332,
+      "query_text": "pink Bigyonger",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01H4VZCRS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 333,
+      "query_text": "Tuder-US",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B7RTHFS7",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 334,
+      "query_text": "gold Name",
+      "intent_type": "visual",
+      "relevant_asin": "B086XCYFW2",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 335,
+      "query_text": "gold Name",
+      "intent_type": "hybrid",
+      "relevant_asin": "B086XCYFW2",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 336,
+      "query_text": "Champion",
+      "intent_type": "attribute",
+      "relevant_asin": "B08RLL4P5Z",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 337,
+      "query_text": "Muscle",
+      "intent_type": "attribute",
+      "relevant_asin": "B09QYBMK78",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 338,
+      "query_text": "Ukes",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BL8ZHRMZ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 339,
+      "query_text": "Compatible",
+      "intent_type": "attribute",
+      "relevant_asin": "B08SQ7TCCN",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 340,
+      "query_text": "90",
+      "intent_type": "attribute",
+      "relevant_asin": "B07GKLQ5KV",
+      "rank": 3,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 341,
+      "query_text": "silver KEZEF",
+      "intent_type": "visual",
+      "relevant_asin": "B09T4TSH3Q",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 342,
+      "query_text": "silver KEZEF",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09T4TSH3Q",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 343,
+      "query_text": "cotton JackieLove",
+      "intent_type": "attribute",
+      "relevant_asin": "B084NX1MN6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 344,
+      "query_text": "cotton JackieLove",
+      "intent_type": "hybrid",
+      "relevant_asin": "B084NX1MN6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 345,
+      "query_text": "UGG",
+      "intent_type": "attribute",
+      "relevant_asin": "B01MFBSE3W",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 346,
+      "query_text": "Xiao",
+      "intent_type": "attribute",
+      "relevant_asin": "B074WBF36K",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 347,
+      "query_text": "silver Womens",
+      "intent_type": "visual",
+      "relevant_asin": "B006ELKAVS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 348,
+      "query_text": "silver Womens",
+      "intent_type": "hybrid",
+      "relevant_asin": "B006ELKAVS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 349,
+      "query_text": "Barbra",
+      "intent_type": "attribute",
+      "relevant_asin": "B017AJNKWS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 350,
+      "query_text": "xl iSZEYU",
+      "intent_type": "attribute",
+      "relevant_asin": "B018FJ0RXW",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 351,
+      "query_text": "elope",
+      "intent_type": "attribute",
+      "relevant_asin": "B09HR336NF",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 352,
+      "query_text": "gold Ahappy-Gold",
+      "intent_type": "visual",
+      "relevant_asin": "B0719BJBPS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 353,
+      "query_text": "gold Ahappy-Gold",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0719BJBPS",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 354,
+      "query_text": "It's",
+      "intent_type": "attribute",
+      "relevant_asin": "B07GDKRN19",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 355,
+      "query_text": "6.5",
+      "intent_type": "attribute",
+      "relevant_asin": "B01G91C9ZC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 356,
+      "query_text": "white 925",
+      "intent_type": "visual",
+      "relevant_asin": "B009CMN0NQ",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 357,
+      "query_text": "white 925",
+      "intent_type": "hybrid",
+      "relevant_asin": "B009CMN0NQ",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 358,
+      "query_text": "Dr.",
+      "intent_type": "attribute",
+      "relevant_asin": "B00IOT5PXQ",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 359,
+      "query_text": "Amulet",
+      "intent_type": "attribute",
+      "relevant_asin": "B08FT4KNLG",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 360,
+      "query_text": "cotton MENDENG",
+      "intent_type": "attribute",
+      "relevant_asin": "B06ZZ8YD7C",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 361,
+      "query_text": "cotton MENDENG",
+      "intent_type": "hybrid",
+      "relevant_asin": "B06ZZ8YD7C",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 362,
+      "query_text": "cotton Diamond",
+      "intent_type": "attribute",
+      "relevant_asin": "B08CCZK3FS",
+      "rank": 9,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 363,
+      "query_text": "cotton Diamond",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08CCZK3FS",
+      "rank": 9,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 364,
+      "query_text": "Bow",
+      "intent_type": "attribute",
+      "relevant_asin": "B07H5DN3HH",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 365,
+      "query_text": "LUX",
+      "intent_type": "attribute",
+      "relevant_asin": "B07GH6T5DW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 366,
+      "query_text": "gold I",
+      "intent_type": "visual",
+      "relevant_asin": "B01MUD9GK4",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 367,
+      "query_text": "gold I",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MUD9GK4",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 368,
+      "query_text": "Indian",
+      "intent_type": "attribute",
+      "relevant_asin": "B015HNV3X2",
+      "rank": 19,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 369,
+      "query_text": "gold Little",
+      "intent_type": "visual",
+      "relevant_asin": "B08M3MZJ2T",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 370,
+      "query_text": "gold Little",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08M3MZJ2T",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 371,
+      "query_text": "black Mike's",
+      "intent_type": "visual",
+      "relevant_asin": "B0BQX44B5V",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 372,
+      "query_text": "black Mike's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BQX44B5V",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 373,
+      "query_text": "Jeep",
+      "intent_type": "attribute",
+      "relevant_asin": "B01572UJOC",
+      "rank": 17,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 374,
+      "query_text": "Hurley",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CNVHTXB",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 375,
+      "query_text": "gold Spacen",
+      "intent_type": "visual",
+      "relevant_asin": "B07RZVRV4G",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 376,
+      "query_text": "gold Spacen",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07RZVRV4G",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 377,
+      "query_text": "white WE",
+      "intent_type": "visual",
+      "relevant_asin": "B01GWC3NQW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 378,
+      "query_text": "white WE",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01GWC3NQW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 379,
+      "query_text": "Men",
+      "intent_type": "attribute",
+      "relevant_asin": "B08BZ5J8BM",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 380,
+      "query_text": "purple FZ",
+      "intent_type": "visual",
+      "relevant_asin": "B07MM53FSV",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 381,
+      "query_text": "purple FZ",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07MM53FSV",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 382,
+      "query_text": "black MIRITY",
+      "intent_type": "visual",
+      "relevant_asin": "B07337NM35",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 383,
+      "query_text": "black MIRITY",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07337NM35",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 384,
+      "query_text": "shoe",
+      "intent_type": "attribute",
+      "relevant_asin": "B073N89CDC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 385,
+      "query_text": "SATINIOR",
+      "intent_type": "attribute",
+      "relevant_asin": "B09L8B5CJL",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 386,
+      "query_text": "black Lovaru",
+      "intent_type": "visual",
+      "relevant_asin": "B01MZGYGZT",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 387,
+      "query_text": "black Lovaru",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MZGYGZT",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 388,
+      "query_text": "nylon AVOD",
+      "intent_type": "attribute",
+      "relevant_asin": "B08JTPQNYQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 389,
+      "query_text": "nylon AVOD",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08JTPQNYQ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 390,
+      "query_text": "black 100PCS",
+      "intent_type": "visual",
+      "relevant_asin": "B086JS5BGY",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 391,
+      "query_text": "black 100PCS",
+      "intent_type": "hybrid",
+      "relevant_asin": "B086JS5BGY",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 392,
+      "query_text": "red JaCos",
+      "intent_type": "visual",
+      "relevant_asin": "B07XWH9YK8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 393,
+      "query_text": "red JaCos",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07XWH9YK8",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 394,
+      "query_text": "FAYBOX",
+      "intent_type": "attribute",
+      "relevant_asin": "B018FKGDU2",
+      "rank": 20,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 395,
+      "query_text": "red 3-Pc",
+      "intent_type": "visual",
+      "relevant_asin": "B00BPFXS5I",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 396,
+      "query_text": "red 3-Pc",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00BPFXS5I",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 397,
+      "query_text": "ASTANFY",
+      "intent_type": "attribute",
+      "relevant_asin": "B08BJLTM4R",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 398,
+      "query_text": "gold CTM",
+      "intent_type": "visual",
+      "relevant_asin": "B006TK3Z34",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 399,
+      "query_text": "gold CTM",
+      "intent_type": "hybrid",
+      "relevant_asin": "B006TK3Z34",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 400,
+      "query_text": "wool KMM",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BPD736FH",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 401,
+      "query_text": "wool KMM",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BPD736FH",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 402,
+      "query_text": "black Buckle",
+      "intent_type": "visual",
+      "relevant_asin": "B00A4OM0KA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 403,
+      "query_text": "black Buckle",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00A4OM0KA",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 404,
+      "query_text": "Moisture",
+      "intent_type": "attribute",
+      "relevant_asin": "B013FIQXZO",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 405,
+      "query_text": "black Handmade",
+      "intent_type": "visual",
+      "relevant_asin": "B016N6IL4Q",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 406,
+      "query_text": "black Handmade",
+      "intent_type": "hybrid",
+      "relevant_asin": "B016N6IL4Q",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 407,
+      "query_text": "white Three-Color",
+      "intent_type": "visual",
+      "relevant_asin": "B00SA58U4U",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 408,
+      "query_text": "white Three-Color",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00SA58U4U",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 409,
+      "query_text": "grey Creazy",
+      "intent_type": "visual",
+      "relevant_asin": "B018FMCY08",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 410,
+      "query_text": "grey Creazy",
+      "intent_type": "hybrid",
+      "relevant_asin": "B018FMCY08",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 411,
+      "query_text": "baby",
+      "intent_type": "attribute",
+      "relevant_asin": "B075TFWBWQ",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 412,
+      "query_text": "NCAA",
+      "intent_type": "attribute",
+      "relevant_asin": "B075SL7CV3",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 413,
+      "query_text": "Ptakh",
+      "intent_type": "attribute",
+      "relevant_asin": "B01KU25U8O",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 414,
+      "query_text": "blue Idgirl",
+      "intent_type": "visual",
+      "relevant_asin": "B015IYANZE",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 415,
+      "query_text": "blue Idgirl",
+      "intent_type": "hybrid",
+      "relevant_asin": "B015IYANZE",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 416,
+      "query_text": "PolarSpex",
+      "intent_type": "attribute",
+      "relevant_asin": "B0871C2SJJ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 417,
+      "query_text": "black Wicked",
+      "intent_type": "visual",
+      "relevant_asin": "B07C1RJYP6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 418,
+      "query_text": "black Wicked",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07C1RJYP6",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 419,
+      "query_text": "blue Miusol",
+      "intent_type": "visual",
+      "relevant_asin": "B015W2D16K",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 420,
+      "query_text": "blue Miusol",
+      "intent_type": "hybrid",
+      "relevant_asin": "B015W2D16K",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 421,
+      "query_text": "large Dexbaby",
+      "intent_type": "attribute",
+      "relevant_asin": "B088BCVQ4V",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 422,
+      "query_text": "black Nike",
+      "intent_type": "visual",
+      "relevant_asin": "B07DDMKWVJ",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 423,
+      "query_text": "black Nike",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07DDMKWVJ",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 424,
+      "query_text": "brown Western",
+      "intent_type": "visual",
+      "relevant_asin": "B00K0UJYG6",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 425,
+      "query_text": "leather Western",
+      "intent_type": "attribute",
+      "relevant_asin": "B00K0UJYG6",
+      "rank": 14,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 426,
+      "query_text": "brown leather Western",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00K0UJYG6",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 427,
+      "query_text": "Helikon",
+      "intent_type": "attribute",
+      "relevant_asin": "B00TOSI272",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 428,
+      "query_text": "black Apple",
+      "intent_type": "visual",
+      "relevant_asin": "B01CQIBWPK",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 429,
+      "query_text": "black Apple",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01CQIBWPK",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 430,
+      "query_text": "Orthofeet",
+      "intent_type": "attribute",
+      "relevant_asin": "B09756G9MG",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 431,
+      "query_text": "ASMAX",
+      "intent_type": "attribute",
+      "relevant_asin": "B01M7Z4VTK",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 432,
+      "query_text": "Marked",
+      "intent_type": "attribute",
+      "relevant_asin": "B00LOPVY9G",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 433,
+      "query_text": "white Sunward",
+      "intent_type": "visual",
+      "relevant_asin": "B019F4MFC2",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 434,
+      "query_text": "white Sunward",
+      "intent_type": "hybrid",
+      "relevant_asin": "B019F4MFC2",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 435,
+      "query_text": "canvas Women's",
+      "intent_type": "attribute",
+      "relevant_asin": "B06XB6QL6F",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 436,
+      "query_text": "canvas Women's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B06XB6QL6F",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 437,
+      "query_text": "leather FIORETTO",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BJZ728D3",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 438,
+      "query_text": "leather FIORETTO",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BJZ728D3",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 439,
+      "query_text": "leather The",
+      "intent_type": "attribute",
+      "relevant_asin": "B00IZKNRNY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 440,
+      "query_text": "leather The",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00IZKNRNY",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 441,
+      "query_text": "black Camellias",
+      "intent_type": "visual",
+      "relevant_asin": "B00R3YTYSA",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 442,
+      "query_text": "black Camellias",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00R3YTYSA",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 443,
+      "query_text": "i",
+      "intent_type": "attribute",
+      "relevant_asin": "B07CQYQ47S",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 444,
+      "query_text": "Hind",
+      "intent_type": "attribute",
+      "relevant_asin": "B07VCTJCCS",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 445,
+      "query_text": "Anime",
+      "intent_type": "attribute",
+      "relevant_asin": "B09WHL9JK5",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 446,
+      "query_text": "black FOCALOOK",
+      "intent_type": "visual",
+      "relevant_asin": "B0BNQ7DKR4",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 447,
+      "query_text": "leather FOCALOOK",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BNQ7DKR4",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 448,
+      "query_text": "black leather FOCALOOK",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0BNQ7DKR4",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 449,
+      "query_text": "Amscan",
+      "intent_type": "attribute",
+      "relevant_asin": "B08PXVMJM1",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 450,
+      "query_text": "white Choco",
+      "intent_type": "visual",
+      "relevant_asin": "B01MFCEP42",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 451,
+      "query_text": "white Choco",
+      "intent_type": "hybrid",
+      "relevant_asin": "B01MFCEP42",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 452,
+      "query_text": "blue BTFBM",
+      "intent_type": "visual",
+      "relevant_asin": "B07LG3W4DN",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 453,
+      "query_text": "blue BTFBM",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07LG3W4DN",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 454,
+      "query_text": "Masquerade",
+      "intent_type": "attribute",
+      "relevant_asin": "B00RJUFZ8Q",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 455,
+      "query_text": "leather 5",
+      "intent_type": "attribute",
+      "relevant_asin": "B07HSSYC1R",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 456,
+      "query_text": "leather 5",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07HSSYC1R",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 457,
+      "query_text": "black ZZER",
+      "intent_type": "visual",
+      "relevant_asin": "B07CQTN12L",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 458,
+      "query_text": "black ZZER",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07CQTN12L",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 459,
+      "query_text": "blue Sampeel",
+      "intent_type": "visual",
+      "relevant_asin": "B07KZHQCHX",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 460,
+      "query_text": "xl Sampeel",
+      "intent_type": "attribute",
+      "relevant_asin": "B07KZHQCHX",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 461,
+      "query_text": "blue Sampeel",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07KZHQCHX",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 462,
+      "query_text": "red Sarah's",
+      "intent_type": "visual",
+      "relevant_asin": "B0167MDGWI",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 463,
+      "query_text": "silk Sarah's",
+      "intent_type": "attribute",
+      "relevant_asin": "B0167MDGWI",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 464,
+      "query_text": "red silk Sarah's",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0167MDGWI",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 465,
+      "query_text": "Bevi",
+      "intent_type": "attribute",
+      "relevant_asin": "B08X16ZHNC",
+      "rank": 4,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 466,
+      "query_text": "EPEIUS",
+      "intent_type": "attribute",
+      "relevant_asin": "B0BH8CV3D7",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 467,
+      "query_text": "black Black",
+      "intent_type": "visual",
+      "relevant_asin": "B00N2DP9BC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 468,
+      "query_text": "small Black",
+      "intent_type": "attribute",
+      "relevant_asin": "B00N2DP9BC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 469,
+      "query_text": "black Black",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00N2DP9BC",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 470,
+      "query_text": "Pyroluna",
+      "intent_type": "attribute",
+      "relevant_asin": "B0B49KW781",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 471,
+      "query_text": "gray 8",
+      "intent_type": "visual",
+      "relevant_asin": "B09PHB1B3Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 472,
+      "query_text": "gray 8",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09PHB1B3Y",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 473,
+      "query_text": "Vortex",
+      "intent_type": "attribute",
+      "relevant_asin": "B0857K48FR",
+      "rank": 2,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 474,
+      "query_text": "RICOVO",
+      "intent_type": "attribute",
+      "relevant_asin": "B08N9NMXNZ",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 475,
+      "query_text": "blue Outray",
+      "intent_type": "visual",
+      "relevant_asin": "B09F9P23YY",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 476,
+      "query_text": "blue Outray",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09F9P23YY",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 477,
+      "query_text": "blue Toughergun",
+      "intent_type": "visual",
+      "relevant_asin": "B07G7P7GCB",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 478,
+      "query_text": "leather Toughergun",
+      "intent_type": "attribute",
+      "relevant_asin": "B07G7P7GCB",
+      "rank": 7,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 479,
+      "query_text": "blue leather Toughergun",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07G7P7GCB",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 480,
+      "query_text": "black Waist",
+      "intent_type": "visual",
+      "relevant_asin": "B09BK6M8SW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 481,
+      "query_text": "black Waist",
+      "intent_type": "hybrid",
+      "relevant_asin": "B09BK6M8SW",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 482,
+      "query_text": "Solmate",
+      "intent_type": "attribute",
+      "relevant_asin": "B06XWK1RCB",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 483,
+      "query_text": "black Youth",
+      "intent_type": "visual",
+      "relevant_asin": "B08SWPV2HL",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 484,
+      "query_text": "black Youth",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08SWPV2HL",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 485,
+      "query_text": "leather ZENTEII",
+      "intent_type": "attribute",
+      "relevant_asin": "B00WFOUH7A",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 486,
+      "query_text": "leather ZENTEII",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00WFOUH7A",
+      "rank": 6,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 487,
+      "query_text": "5",
+      "intent_type": "attribute",
+      "relevant_asin": "B06XFBJ9PQ",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 488,
+      "query_text": "bebe",
+      "intent_type": "attribute",
+      "relevant_asin": "B07ZWPHKV4",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 489,
+      "query_text": "purple Wxbox",
+      "intent_type": "visual",
+      "relevant_asin": "B0722HJ1DP",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 490,
+      "query_text": "purple Wxbox",
+      "intent_type": "hybrid",
+      "relevant_asin": "B0722HJ1DP",
+      "rank": 1,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 491,
+      "query_text": "Gem",
+      "intent_type": "attribute",
+      "relevant_asin": "B01BKSF93S",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 492,
+      "query_text": "silver YAZILIND",
+      "intent_type": "visual",
+      "relevant_asin": "B00IK6FQD2",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 493,
+      "query_text": "silver YAZILIND",
+      "intent_type": "hybrid",
+      "relevant_asin": "B00IK6FQD2",
+      "rank": 8,
+      "found_in_top20": true
+    },
+    {
+      "query_id": 494,
+      "query_text": "black Face",
+      "intent_type": "visual",
+      "relevant_asin": "B08K41CGPV",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 495,
+      "query_text": "black Face",
+      "intent_type": "hybrid",
+      "relevant_asin": "B08K41CGPV",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 496,
+      "query_text": "black Women",
+      "intent_type": "visual",
+      "relevant_asin": "B07G23H7KL",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 497,
+      "query_text": "leather small Women",
+      "intent_type": "attribute",
+      "relevant_asin": "B07G23H7KL",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 498,
+      "query_text": "black leather Women",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07G23H7KL",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 499,
+      "query_text": "gold Mens",
+      "intent_type": "visual",
+      "relevant_asin": "B07ZSHCKW3",
+      "rank": null,
+      "found_in_top20": false
+    },
+    {
+      "query_id": 500,
+      "query_text": "gold Mens",
+      "intent_type": "hybrid",
+      "relevant_asin": "B07ZSHCKW3",
+      "rank": null,
+      "found_in_top20": false
+    }
+  ]
+}

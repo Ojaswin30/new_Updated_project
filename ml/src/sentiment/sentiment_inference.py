@@ -1,7 +1,7 @@
 # ml/src/sentiment/inference.py
 
 from typing import List
-from ml.src.sentiment.sentiment_artifacts import load_sentiment_artifacts
+from src.sentiment.sentiment_artifacts import load_sentiment_artifacts
 
 # load artifacts ONCE at startup
 _vectorizer, _model = load_sentiment_artifacts()

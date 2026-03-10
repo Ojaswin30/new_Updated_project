@@ -4,7 +4,7 @@ import time
 import psutil
 import os
 
-from ml.src.pipeline.late_fusion import LateFusionPipeline, PipelineConfig
+from src.pipeline.late_fusion import LateFusionPipeline, PipelineConfig
 
 
 def run_late_fusion(image_path: str | None, text: str):
@@ -15,7 +15,9 @@ def run_late_fusion(image_path: str | None, text: str):
     cpu_start = psutil.cpu_percent(interval=None)
     mem_start = process.memory_info().rss
 
-    pipe = LateFusionPipeline(PipelineConfig())
+    pipe = LateFusionPipeline(PipelineConfig(
+    catalog_db_path="D:\\github\\git repositories\\new_Updated_project\\ml\\data\\reviews-output\\product_ranking.sqlite"
+))
     out = pipe.run(image_path, text)
 
     end_time = time.perf_counter()

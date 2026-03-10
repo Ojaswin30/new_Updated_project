@@ -10,7 +10,7 @@ import argparse
 from pathlib import Path
 
 # Import your pipelines
-from ml.src.pipeline.late_fusion import LateFusionPipeline, PipelineConfig as BaseConfig
+from src.pipeline.late_fusion import LateFusionPipeline, PipelineConfig as BaseConfig
 from ml.training.intent_aware_fusion import IntentAwareFusionPipeline, PipelineConfig as DynamicConfig
 
 

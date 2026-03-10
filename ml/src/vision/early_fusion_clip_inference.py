@@ -2,8 +2,8 @@ from typing import Dict, Optional
 from PIL import Image
 import torch
 
-from ml.src.vision.clip_artifacts import load_clip_artifacts
-from ml.src.vision.clip_vocab import load_vocab
+from src.vision.clip_artifacts import load_clip_artifacts
+from src.vision.clip_vocab import load_vocab
 
 # =========================================================
 # Load CLIP ONCE (process lifetime)

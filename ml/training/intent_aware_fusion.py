@@ -10,9 +10,9 @@ import sqlite3
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Any
 
-from ml.src.pipeline.constraint_parser import ConstraintParser
-from ml.src.pipeline.query_builder import SimpleQueryBuilder as SQLQueryBuilder, QueryBuildResult
-from ml.src.vision.early_fusion_clip_inference import early_fusion_image_infer
+from src.pipeline.constraint_parser import ConstraintParser
+from src.pipeline.query_builder import SimpleQueryBuilder as SQLQueryBuilder, QueryBuildResult
+from src.vision.early_fusion_clip_inference import early_fusion_image_infer
 from ml.training.intent_classifier import IntentClassifier
 
 
