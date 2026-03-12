@@ -13,7 +13,7 @@ from typing import Dict, List, Optional, Any
 from src.pipeline.constraint_parser import ConstraintParser
 from src.pipeline.query_builder import SimpleQueryBuilder as SQLQueryBuilder, QueryBuildResult
 from src.vision.early_fusion_clip_inference import early_fusion_image_infer
-from ml.training.intent_classifier import IntentClassifier
+from training.intent_classifier import IntentClassifier
 
 
 # ----------------------------
@@ -113,7 +113,7 @@ class IntentAwareFusionPipeline:
 
     def _run_vision(self, image_path: str) -> Dict[str, Any]:
         if not os.path.exists(image_path):
-            raise FileNotFoundError(f"Image not found: {image_path}")
+            return {"category": None, "color": None, "visual_score": 0.0}
 
         image_pred = early_fusion_image_infer(image_path)
 
@@ -257,22 +257,25 @@ class IntentAwareFusionPipeline:
         return ranked
 
     def _constraint_match_score(self, row: Dict, constraints: Dict) -> float:
-        """Compute how well a product matches text constraints"""
         score, max_score = 0.0, 0.0
 
-        def match(field: str, w: float):
+        def match_fuzzy(field: str, w: float):
             nonlocal score, max_score
             val = constraints.get(field)
             if val is None:
                 return
             max_score += w
-            if str(row.get(field, "")).lower() == str(val).lower():
+            row_val = str(row.get(field, "") or "").lower()
+            # Use partial match instead of exact equality
+            if str(val).lower() in row_val or row_val in str(val).lower():
                 score += w
+            elif row_val:
+                score += w * 0.3   # partial credit for non-null field
 
-        match("category", 1.0)
-        match("color", 1.0)
-        match("size", 0.8)
-        match("material", 0.8)
+        match_fuzzy("category", 1.0)
+        match_fuzzy("color", 1.0)
+        match_fuzzy("size", 0.8)
+        match_fuzzy("material", 0.8)
 
         keywords = constraints.get("keywords") or []
         if keywords:
@@ -280,6 +283,15 @@ class IntentAwareFusionPipeline:
             title = str(row.get("title", "")).lower()
             hits = sum(1 for k in keywords if k.lower() in title)
             score += min(1.0, hits / len(keywords))
+
+        price_max = constraints.get("price_max")
+        if price_max:
+            max_score += 0.5
+            price = row.get("price")
+            if price is None:
+                score += 0.25   # neutral for unknown price
+            elif float(price) <= float(price_max):
+                score += 0.5
 
         return 0.0 if max_score == 0 else min(1.0, score / max_score)
 
