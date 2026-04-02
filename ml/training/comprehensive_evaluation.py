@@ -312,7 +312,136 @@ class ComprehensiveEvaluator:
                 'std':  np.std(values)
             }
         return aggregated
+    def bootstrap_significance_test(
+        self,
+        scores_a: List[float],
+        scores_b: List[float],
+        n_iterations: int = 1000,
+        confidence_level: float = 0.95
+    ) -> Dict:
+        """
+        Paired bootstrap test to check if the difference between two methods is significant.
+        Returns p-value, observed difference, and whether result is significant.
+        """
+        scores_a = np.array(scores_a)
+        scores_b = np.array(scores_b)
+        observed_diff = np.mean(scores_b) - np.mean(scores_a)
 
+        n = len(scores_a)
+        bootstrap_diffs = []
+
+        rng = np.random.default_rng(seed=42)
+        for _ in range(n_iterations):
+            indices = rng.integers(0, n, size=n)
+            boot_a = scores_a[indices]
+            boot_b = scores_b[indices]
+            bootstrap_diffs.append(np.mean(boot_b) - np.mean(boot_a))
+
+        bootstrap_diffs = np.array(bootstrap_diffs)
+
+        # Two-tailed p-value: proportion of bootstrap diffs on the opposite side of zero
+        if observed_diff >= 0:
+            p_value = np.mean(bootstrap_diffs <= 0) * 2
+        else:
+            p_value = np.mean(bootstrap_diffs >= 0) * 2
+        p_value = min(p_value, 1.0)
+
+        alpha = 1.0 - confidence_level
+        ci_low  = np.percentile(bootstrap_diffs, (alpha / 2) * 100)
+        ci_high = np.percentile(bootstrap_diffs, (1 - alpha / 2) * 100)
+
+        return {
+            'observed_diff': observed_diff,
+            'p_value':       p_value,
+            'ci_low':        ci_low,
+            'ci_high':       ci_high,
+            'significant':   p_value < alpha,
+            'n_iterations':  n_iterations,
+        }
+
+    def collect_per_query_scores(self, method_name: str, metric: str = 'ndcg@10') -> List[float]:
+        """
+        Re-runs evaluation for one method and returns a per-query list of metric scores.
+        Required for paired bootstrap — each element corresponds to the same query.
+        """
+        scores = []
+        for query_info in self.queries:
+            query_text   = query_info['query_text']
+            ground_truth = query_info['relevant_asin']
+
+            try:
+                products = retrieve_and_score(query_text, self.db_path, self.parser)
+                if not products:
+                    scores.append(0.0)
+                    continue
+
+                constraints = self.parser.parse(query_text)
+
+                if method_name == 'symbolic_early':
+                    ranked = method1_symbolic_early_fusion(products)
+                elif method_name == 'static_late':
+                    ranked = method2_static_late_fusion(products)
+                else:
+                    ranked = method3_intent_aware_dynamic_fusion(
+                        products, query_text, constraints, self.classifier
+                    )
+
+                retrieved_asins = [p['parent_asin'] for p in ranked[:20]]
+                relevance = [1.0 if asin == ground_truth else 0.0
+                            for asin in retrieved_asins]
+
+                k = int(metric.split('@')[1]) if '@' in metric else 10
+                scores.append(ndcg_at_k(relevance, k))
+
+            except Exception:
+                scores.append(0.0)
+
+        return scores
+
+    def print_bootstrap_results(self, results_dict: Dict[str, Dict]):
+        """
+        Runs paired bootstrap tests for all method pairs and prints a significance table.
+        """
+        print("\n" + "=" * 80)
+        print("🔬 BOOTSTRAP SIGNIFICANCE TESTS  (n=1000 iterations, 95% confidence)")
+        print("=" * 80)
+        print("Metric: NDCG@10  |  H0: no difference between methods")
+        print("-" * 80)
+
+        method_pairs = [
+            ('symbolic_early',  'static_late',         'Static Late   vs Symbolic Early'),
+            ('symbolic_early',  'intent_aware_dynamic', 'Intent-Aware  vs Symbolic Early'),
+            ('static_late',     'intent_aware_dynamic', 'Intent-Aware  vs Static Late   '),
+        ]
+
+        print("Collecting per-query scores for bootstrap (this may take a moment)...")
+        score_cache: Dict[str, List[float]] = {}
+        for name in ['symbolic_early', 'static_late', 'intent_aware_dynamic']:
+            score_cache[name] = self.collect_per_query_scores(name, metric='ndcg@10')
+
+        print(f"\n{'Comparison':<42} {'Δ NDCG@10':>10} {'p-value':>10} {'95% CI':>22} {'Sig?':>6}")
+        print("-" * 95)
+
+        for method_a, method_b, label in method_pairs:
+            result = self.bootstrap_significance_test(
+                score_cache[method_a],
+                score_cache[method_b],
+                n_iterations=1000,
+                confidence_level=0.95,
+            )
+            sig_marker = "✅ YES" if result['significant'] else "❌ NO "
+            ci_str = f"[{result['ci_low']:+.4f}, {result['ci_high']:+.4f}]"
+            print(
+                f"{label:<42} "
+                f"{result['observed_diff']:>+10.4f} "
+                f"{result['p_value']:>10.4f} "
+                f"{ci_str:>22} "
+                f"{sig_marker:>6}"
+            )
+
+        print("-" * 95)
+        print("  Δ > 0 means the second method is better than the first.")
+        print("  Significant = p < 0.05 (difference unlikely due to chance).\n")
     def print_comparison_table(self, results_dict: Dict[str, Dict]):
         print("\n" + "=" * 80)
         print("COMPREHENSIVE COMPARISON: 3 FUSION METHODS")
@@ -362,11 +491,13 @@ class ComprehensiveEvaluator:
                 improvement = ((new_val - base_val) / base_val) * 100 if base_val > 0 else 0
                 sign = "✅" if improvement > 0 else "❌" if improvement < 0 else "="
                 print(f"  {sign} {metric:<12}: {improvement:+6.2f}%")
+        
+        self.print_bootstrap_results(results_dict)
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--db", default="data/reviews-output/product_ranking.sqlite")
+    parser.add_argument("--db", default="data/reviews-output/product_ranking_v3.sqlite")
     parser.add_argument("--limit", type=int, default=1500,
                         help="Queries to evaluate (stratified across intent types). Default 1500 (~500 per intent).")
     args = parser.parse_args()

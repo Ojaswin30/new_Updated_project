@@ -10,31 +10,151 @@ DB_PATH = "D:\\github\\git repositories\\new_Updated_project\\ml\\data\\reviews-
 
 #  In early_fusion_pipeline.py, add this mapping
 CLIP_TO_DB_CATEGORY = {
-    "linen shirt":    "Tops",
-    "t-shirt":        "Tops",
-    "dress":          "Dresses",
-    "jacket":         "Outerwear",
-    "jeans":          "Bottoms",
-    "sneakers":       "Shoes",
-    "handbag":        "Bags",
-    "sunglasses":     "Eyewear",
-    "watch":          "Watches",
-    "necklace":       "Jewelry",
-    "bracelet":       "Jewelry",
-    "earrings":       "Jewelry",
-    "swimsuit":       "Swimwear",
-    "hoodie":         "Outerwear",
-    "skirt":          "Dresses",
-    "leggings":       "Bottoms",
-    "boots":          "Shoes",
-    "scarf":          "Accessories",
-    "belt":           "Accessories",
-    "hat":            "Accessories",
-    "socks":          "Hosiery",
-    "compression sleeves": "Hosiery",
-    "bra":            "Intimates",
-    "sweater":        "Knitwear",
-    "cardigan":       "Knitwear",
+
+    # -------------------- TOPS --------------------
+    "t-shirt": "Tops and T-Shirts",
+    "tee": "Tops and T-Shirts",
+    "shirt": "Tops and T-Shirts",
+    "linen shirt": "Tops and T-Shirts",
+    "polo": "Tops and T-Shirts",
+    "tank top": "Tops and T-Shirts",
+    "crop top": "Tops and T-Shirts",
+    "blouse": "Tops and T-Shirts",
+
+    # -------------------- DRESSES / SKIRTS --------------------
+    "dress": "Dresses and Skirts",
+    "gown": "Dresses and Skirts",
+    "maxi dress": "Dresses and Skirts",
+    "mini dress": "Dresses and Skirts",
+    "skirt": "Dresses and Skirts",
+    "pleated skirt": "Dresses and Skirts",
+
+    # -------------------- OUTERWEAR --------------------
+    "jacket": "Jackets and Coats",
+    "coat": "Jackets and Coats",
+    "blazer": "Jackets and Coats",
+    "overcoat": "Jackets and Coats",
+    "hoodie": "Hoodies and Sweatshirts",
+    "sweatshirt": "Hoodies and Sweatshirts",
+
+    # -------------------- BOTTOMS --------------------
+    "jeans": "Pants and Jeans",
+    "denim": "Pants and Jeans",
+    "pants": "Pants and Jeans",
+    "trousers": "Pants and Jeans",
+    "chinos": "Pants and Jeans",
+    "leggings": "Activewear and Leggings",
+    "yoga pants": "Activewear and Leggings",
+
+    # -------------------- SHORTS --------------------
+    "shorts": "Shorts",
+    "bermuda": "Shorts",
+
+    # -------------------- SHOES --------------------
+    "sneakers": "Sneakers and Athletic Shoes",
+    "running shoes": "Sneakers and Athletic Shoes",
+    "sports shoes": "Sneakers and Athletic Shoes",
+    "trainers": "Sneakers and Athletic Shoes",
+    "boots": "Boots",
+    "ankle boots": "Boots",
+    "sandals": "Sandals and Flip Flops",
+    "flip flops": "Sandals and Flip Flops",
+    "chappals": "Sandals and Flip Flops",
+    "heels": "Heels and Pumps",
+    "pumps": "Heels and Pumps",
+    "loafers": "Loafers and Flats",
+    "flats": "Loafers and Flats",
+    "slippers": "Slippers",
+
+    # -------------------- BAGS --------------------
+    "handbag": "Handbags and Purses",
+    "purse": "Handbags and Purses",
+    "shoulder bag": "Handbags and Purses",
+    "backpack": "Backpacks",
+    "rucksack": "Backpacks",
+    "wallet": "Wallets",
+    "card holder": "Wallets",
+    "tote bag": "Tote Bags",
+    "shopping bag": "Tote Bags",
+    "crossbody bag": "Crossbody Bags",
+    "sling bag": "Crossbody Bags",
+    "clutch": "Clutches",
+    "waist bag": "Fanny Packs",
+    "fanny pack": "Fanny Packs",
+    "luggage": "Luggage",
+    "suitcase": "Luggage",
+
+    # -------------------- EYEWEAR --------------------
+    "sunglasses": "Sunglasses",
+    "shades": "Sunglasses",
+    "aviators": "Sunglasses",
+    "reading glasses": "Reading Glasses",
+    "spectacles": "Prescription Frames",
+    "eyeglasses": "Prescription Frames",
+    "goggles": "Goggles",
+
+    # -------------------- WATCHES --------------------
+    "watch": "Analog Watches",
+    "wrist watch": "Analog Watches",
+    "smartwatch": "Smartwatches",
+    "smart watch": "Smartwatches",
+    "digital watch": "Digital Watches",
+    "watch strap": "Watch Accessories",
+
+    # -------------------- JEWELRY --------------------
+    "necklace": "Necklaces and Pendants",
+    "pendant": "Necklaces and Pendants",
+    "chain": "Necklaces and Pendants",
+    "ring": "Rings",
+    "earrings": "Earrings",
+    "stud": "Earrings",
+    "hoops": "Earrings",
+    "bracelet": "Bracelets and Bangles",
+    "bangle": "Bracelets and Bangles",
+    "anklet": "Anklets",
+    "brooch": "Brooches and Pins",
+    "cufflinks": "Cufflinks",
+    "jewelry set": "Jewelry Sets",
+
+    # -------------------- SWIMWEAR --------------------
+    "swimsuit": "Swimwear and Bikinis",
+    "bikini": "Swimwear and Bikinis",
+    "swimwear": "Swimwear and Bikinis",
+
+    # -------------------- INTIMATES --------------------
+    "bra": "Underwear and Intimates",
+    "panties": "Underwear and Intimates",
+    "lingerie": "Underwear and Intimates",
+    "boxers": "Underwear and Intimates",
+
+    # -------------------- HOSIERY --------------------
+    "socks": "Socks and Hosiery",
+    "stockings": "Socks and Hosiery",
+    "tights": "Socks and Hosiery",
+
+    # -------------------- KNITWEAR --------------------
+    "sweater": "Sweaters and Cardigans",
+    "jumper": "Sweaters and Cardigans",
+    "cardigan": "Sweaters and Cardigans",
+
+    # -------------------- ACCESSORIES --------------------
+    "scarf": "Scarves and Wraps",
+    "shawl": "Scarves and Wraps",
+    "dupatta": "Scarves and Wraps",
+    "belt": "Belts",
+    "hat": "Hats and Caps",
+    "cap": "Hats and Caps",
+    "beanie": "Hats and Caps",
+    "gloves": "Gloves and Mittens",
+    "mittens": "Gloves and Mittens",
+    "hairband": "Hair Accessories",
+    "hair clip": "Hair Accessories",
+    "scrunchie": "Hair Accessories",
+
+    # -------------------- BEAUTY --------------------
+    "sunscreen": "Sunscreen and Beauty",
+    "sunblock": "Sunscreen and Beauty",
+    "skincare": "Sunscreen and Beauty",
 }
 
 

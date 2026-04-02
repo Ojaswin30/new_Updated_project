@@ -9,7 +9,7 @@ from collections import defaultdict
 import argparse
 
 from src.pipeline.constraint_parser import ConstraintParser
-from ml.training.intent_classifier import IntentClassifier
+from training.intent_classifier import IntentClassifier
 
 
 # ==================== METRICS ====================
@@ -273,7 +273,7 @@ class FinalEvaluator:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--db", default="data/reviews-output/product_ranking.sqlite")
+    parser.add_argument("--db", default="data/reviews-output/product_ranking_v3.sqlite")
     args = parser.parse_args()
     
     evaluator = FinalEvaluator(args.db)

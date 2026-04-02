@@ -30,3 +30,4 @@ venv/
 __pycache__/
 *.pyc
 ml/models/clip_vit_b32/
+ml/data/reviews-output/
